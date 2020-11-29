@@ -1,0 +1,23 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.dark-input {
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+
+.dark-input:focus {
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+
+.dark-input:disabled {
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
